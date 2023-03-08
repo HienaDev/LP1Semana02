@@ -11,6 +11,12 @@ namespace ManipulaVar
             int x = int.Parse(args[0]);
 
             x++;
+
+            Console.WriteLine(x);
+
+            x = int.Parse(args[0]);
+
+            --x;
             
             Console.WriteLine(x);
         }
