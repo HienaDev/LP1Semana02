@@ -86,6 +86,8 @@ namespace Specials
 
             Console.WriteLine();
 
+            //OVERFLOW
+
             long maxInt = 2147483647;
 
             Console.WriteLine((int) maxInt);
@@ -113,6 +115,24 @@ namespace Specials
             maxFloat_infinity *=2;
               
             Console.WriteLine((float) maxFloat_infinity);
+
+            Console.WriteLine();
+
+            //UNDERFLOW
+
+            float f1, f2;
+
+            f1 = f2 = 10000.0f;
+
+            Console.WriteLine(f1 == f2 + 0.00001f);
+
+            Console.WriteLine();
+
+            double d1, d2;
+
+            d1 = d2 = 1000000000.0;
+
+            Console.WriteLine(d1 == d2 + 0.000000001);
         }
     }
 }
