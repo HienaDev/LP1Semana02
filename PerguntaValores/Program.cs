@@ -4,6 +4,10 @@ namespace PerguntaValores
 {
     class Program
     {
+
+        // This program asks for the height and radius
+        // of a cylinder and then calculates the Volume and Surface Area
+        // of the cylinder
         static void Main(string[] args)
         {
             float pi = 3.1415926f;
@@ -18,7 +22,7 @@ namespace PerguntaValores
             float surface_area = 2 * pi * radius * (radius + height);
 
             Console.WriteLine($"\nVolume: {volume}");
-            Console.WriteLine($"Surface Area: {surface_area}");
+            Console.WriteLine($"Surface Area: {surface_area}\n");
         }
     }
 }
