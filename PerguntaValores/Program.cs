@@ -14,7 +14,11 @@ namespace PerguntaValores
             Console.WriteLine("\nWhats the radius of the cylinder? \n ");
             float radius = Convert.ToSingle(Console.ReadLine());
 
-            
+            float volume = pi * (radius * radius) * height;
+            float surface_area = 2 * pi * radius * (radius + height);
+
+            Console.WriteLine($"\nVolume: {volume}");
+            Console.WriteLine($"Surface Area: {surface_area}");
         }
     }
 }
