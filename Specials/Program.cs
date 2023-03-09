@@ -61,10 +61,18 @@ namespace Specials
             Console.WriteLine(ulong.MinValue);
             Console.WriteLine(ulong.MaxValue);
 
-            
+            Console.WriteLine();
 
+            Console.WriteLine(double.NegativeInfinity);
+            Console.WriteLine(double.PositiveInfinity);
+            Console.WriteLine(double.NaN);
 
-            
+            Console.WriteLine();
+
+            Console.WriteLine(float.NegativeInfinity);
+            Console.WriteLine(float.PositiveInfinity);
+            Console.WriteLine(float.NaN);
+
         }
     }
 }
