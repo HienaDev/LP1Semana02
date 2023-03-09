@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfExample", "IfExample\IfEx
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatGPTGrandfather", "ChatGPTGrandfather\ChatGPTGrandfather.csproj", "{EE96CDB7-F093-4DE9-BAEE-E69916645B24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakContinue", "BreakContinue\BreakContinue.csproj", "{91C8EF85-B08C-407B-8369-35220D857FD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{EE96CDB7-F093-4DE9-BAEE-E69916645B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE96CDB7-F093-4DE9-BAEE-E69916645B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE96CDB7-F093-4DE9-BAEE-E69916645B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91C8EF85-B08C-407B-8369-35220D857FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91C8EF85-B08C-407B-8369-35220D857FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91C8EF85-B08C-407B-8369-35220D857FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91C8EF85-B08C-407B-8369-35220D857FD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
