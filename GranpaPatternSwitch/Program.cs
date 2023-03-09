@@ -7,7 +7,7 @@ namespace GranpaPatternSwitch
         private static void Main(string[] args)
         {
             // Variáveis auxiliares
-            string question, response;
+            string question;
 
             // Colocar questão ao utilizador
             Console.Write("Place your question? ");
@@ -21,7 +21,7 @@ namespace GranpaPatternSwitch
                 "What's your name?" => "Gran'pa",
                 "What's your mission?" => "Destroy mankind!",
                 _ => "You got me, I'm not THAT smart!",
-            }
+            };
 
             // Responder adequadamente
             Console.WriteLine(response);
