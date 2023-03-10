@@ -28,7 +28,7 @@ namespace ChatGPTMother
                     "I'm good, you?" => "Im great =)",
                     "What do you think about elephants?" => "They are heavy",
                     "Make me a tree" => "tree",
-                    "Add 2 numbers" => "sum",
+                    "Add 2 integer numbers" => "sum",
                     "How many eggs do I need for a cake?" => "At least 2",
                     "EXIT" => "exit",
                     _ => "I don't understand your question",
@@ -51,6 +51,7 @@ namespace ChatGPTMother
                     // This cycle happens size times
                     for (int i = 1; i <= size; i++)
                     {
+
                         int checker = i + i - 1;
 
                         for (int x = 0; x < size - i; x++)
@@ -59,10 +60,11 @@ namespace ChatGPTMother
 
                         for (int x = 0; x < checker; x++)
 
+                            // Draws a star if its the first level of the tree
                             if (i == 1)
 
                                 Console.Write("\u2605");
-
+                            // Draws * i
                             else
 
                                 Console.Write("*");
@@ -74,15 +76,18 @@ namespace ChatGPTMother
                         Console.Write("\n");
                     }
                 }
+                // Adding 2 numbers
                 else if (response == "sum")
                 {
-                    Console.Write("Yes! What numbers?\n");
+                    Console.Write("Of Course! What numbers?\n");
                     Console.Write("N1: ");
 
+                    //Receives 1st number
                     int n1 = int.Parse(Console.ReadLine());
 
                     Console.Write("N2: ");
 
+                    //Receives 2nd number
                     int n2 = int.Parse(Console.ReadLine());
 
         

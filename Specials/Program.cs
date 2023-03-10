@@ -19,6 +19,12 @@ namespace Specials
             Console.WriteLine(uint.MaxValue);
 
             Console.WriteLine();
+
+            Console.WriteLine("Char:");
+            Console.WriteLine(char.MinValue);
+            Console.WriteLine(char.MaxValue);
+
+            Console.WriteLine();
             
             Console.WriteLine("SByte:");
             Console.WriteLine(sbyte.MinValue);
