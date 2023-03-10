@@ -16,11 +16,8 @@ namespace Triangle
             {
                 // Prints the selected character every line,
                 // incrementing once each time
-                for(int x = 0; x < i; x++)
-                {
-                    Console.Write(args[1]);
-                }
-                Console.WriteLine();
+                string line = new String(char.Parse(args[1]), i);
+                Console.WriteLine(line);
             }
         }
     }
